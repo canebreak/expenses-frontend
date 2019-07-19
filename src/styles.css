@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    border: 0!important;
+    outline: 0!important;
+    background: transparent!important;
+    border-bottom: 1px solid #555!important;
+    box-shadow: 0 0 0 0 #fff!important;
+    border-radius: 0!important;
+}
