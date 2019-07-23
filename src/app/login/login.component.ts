@@ -1,6 +1,7 @@
 import { UserService } from './../services/user.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../model/user';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,7 @@ public loggedUser: Object;
 submitted = false;
 
 
-  constructor(private userService, UserService) { }
+  constructor(private userService: UserService, private router: Router) { }
 
   ngOnInit() {
   }
@@ -24,7 +25,8 @@ submitted = false;
   {
     this.submitted = true;
       this.loggedUser = this.userService.loginUser(this.user);
-      console.log("TODO: remove this -- Logged user: " + this.loggedUser);
+      console.log("TODO: remove this -- Logged user: " + this.loggedUser.toString());
+      this.router.navigate(['/profile']);
   }
 
  
