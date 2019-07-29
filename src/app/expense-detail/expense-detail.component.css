@@ -1,0 +1,91 @@
+.wrapper {
+    width: 29%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    background: #60F787;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    background: #799981;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    height: 35px;
+    padding-top: 8px;
+}
+
+.id {
+    border: 1px solid black;
+    background: #fff;
+    max-width: 60px;
+    text-align: center;
+}
+
+.amount {
+    float: right;
+    border: 1px solid black;
+    background: #fff;
+    max-width: 120px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.description {
+    padding: 0 19% 0 19%;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.add-note-reminder {
+    width: 30px;
+    height: 30px;
+    background: #A0FF63;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.view-notes {
+    width: 30px;
+    height: 30px;
+    background: #A0FF63;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+    float: left;
+}
+
+
+/* @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes inverse-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */

@@ -12,6 +12,8 @@ import { ExpenseDetailComponent } from './expense-detail/expense-detail.componen
 import { RegisterComponent } from './register/register.component';
 import { FormsModule }    from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NewExpenseComponent } from './new-expense/new-expense.component';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HttpClientModule } from '@angular/common/http';
     LogoutComponent,
     ExpensesListComponent,
     ExpenseDetailComponent,
-    RegisterComponent
+    RegisterComponent,
+    NewExpenseComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,

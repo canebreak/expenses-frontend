@@ -1,1 +1,10 @@
-<p>expenses-list works!</p>
+<button class='btn-add-new-expense'>+</button>
+<br>
+<br>
+<div class="container">
+    <div class="row" *ngIf="expenses">
+        <div *ngFor="let li of expenses">
+            <app-expense-detail [expense]="li"></app-expense-detail>
+        </div>
+    </div>
+</div>
